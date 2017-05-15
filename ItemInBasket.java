@@ -62,6 +62,8 @@ public class ItemInBasket {
     System.out.println("Today the total number of tyes of stocks="+linenum);
     System.out.println("Proceeding for shopping");
     System.out.println("*********************************************");
+        System.out.println("*********************************************");
+
 
 //Part 3: Loading the share names and their values
   while(keepbuy){
@@ -90,7 +92,7 @@ public class ItemInBasket {
         //System.out.println(stockname[j].company);
         //System.out.println(buystock);
         
-          if(buystock.equals(stockname[j].itemName)){
+          if(buystock.equalsIgnoreCase(stockname[j].itemName)){
            basketitem[j].itemToBuy=buystock;
            basketitem[j].getbuynumber(buynumber);
         //   System.out.println("checkpoint3");
@@ -115,7 +117,7 @@ System.out.println(basketitem[j].numberOfItem+"  "+basketitem[j].itemToBuy+
 
     //    System.out.println("totalcost="+totalcost);
         DecimalFormat df = new DecimalFormat("#.00");
-        System.out.println("totalcost="+df.format(totalcost));
+        System.out.println("totalcost="+"\u00a3"+df.format(totalcost));
 
     
 // end of public static void

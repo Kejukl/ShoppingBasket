@@ -25,7 +25,7 @@
 <li>Compile the main file ItemInBasket.java.</li>
 <li>Run the program, it will upload the CSV files and all items are stored as objects in memory.</li>
 <li>The program will ask what items do you need?  Enter the name of the item.  (In this case we have uploaded four items Banana, Strawberries, Oranges, Pineapple.</li>
-<li>The program will for the quantities.  Enter the required quantities.</li>
+<li>The program will ask for the quantities.  Enter the required quantities.</li>
 <li>Then the program will ask whether another item is needed.</li>
 <li>To buy more press any key.  In this case steps (3-6) gets repeared</li>
 <li>If n is pressed, the list of items that are being bought and total cost will be displayed.</li>
